@@ -7,8 +7,6 @@ import librosa
 import sys
 from pathlib import Path
 
-file_path = "01 Hung Up (Ranny ReWerk).mp3" # Beispiel-Dateipfad, bitte anpassen
-
 def check_replaygain(file_path: str) -> bool:
     """Zeigt ReplayGain-Tags einer Datei an"""
     audio = File(file_path)
